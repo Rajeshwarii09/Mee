@@ -1,0 +1,16 @@
+.know{
+	height :70px;
+	width : 82%;
+	text-align: center;
+	font-size: 30px;
+	background: transparent linear-gradient(to right, #44093e, #090a0b);
+	margin: 10% 10% 10%  10%;
+	border-radius: 20px;
+	padding-top: 20px;
+	color: rgb(135, 83, 16);
+
+}
+
+.l{
+	padding: 0 0 30px 0;
+}

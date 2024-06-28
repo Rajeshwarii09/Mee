@@ -1,0 +1,144 @@
+.container_main {
+	display: flex;
+	flex-wrap: wrap;
+	background: transparent linear-gradient(to right, #2b1829, #090a0b);
+	justify-content: center;
+	align-items: center;
+	margin: 15px 1% 3px 87px;
+	grid-template-columns: 3fr;
+	padding-left: .2%;
+	padding-right: .2%;
+	width: 40%;
+	border-radius: 10px;
+	animation: fade-in 1s ease-in-out, rotate-in 1s ease-in-out;
+	transition: transform 0.3s ease-in-out;
+ }
+ 
+ 
+ .heading {
+	font-size: 25px;
+	color: #925e9bfe;
+	margin: 3% 0 2% 0;
+	padding: 5% 0 2% 0%;
+	
+	text-align: center;
+	animation: slide-in 1s ease-in-out;
+ }
+
+ .pro {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px;
+ }
+ .crypto_bot {
+	background-color: #3498db;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+	width: 270px;
+	text-align: center;
+	color: #fff;
+	transition: transform 0.3s, box-shadow 0.3s; /* add transition effect */
+ }
+ 
+ .crypto_bot span {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+ }
+ 
+ .crypto_bot:hover {
+	transform: scale(1.05); /* scale up on hover */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add shadow on hover */
+ }
+ 
+ .Ecommerce {
+	background-color: #f1c40f;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+	width: 270px;
+	text-align: center;
+	color: #fff;
+	transition: transform 0.3s, box-shadow 0.3s; /* add transition effect */
+ }
+ 
+ .Ecommerce span {
+	font-size: 18px;
+	font-weight: bold;
+ }
+ 
+ .Ecommerce:hover {
+	transform: scale(1.05); /* scale up on hover */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add shadow on hover */
+ }
+ 
+ .ZealMarket {
+	background-color: #9b59b6;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+	width: 270px;
+	text-align: center;
+	color: #fff;
+	transition: transform 0.3s, box-shadow 0.3s; /* add transition effect */
+ }
+ 
+ .ZealMarket span {
+	font-size: 18px;
+	font-weight: bold;
+ }
+ 
+ .ZealMarket:hover {
+	transform: scale(1.05); /* scale up on hover */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add shadow on hover */
+ }
+ 
+ .ShortUrl {
+	background-color: #2ecc71;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+	width: 270px;
+	text-align: center;
+	color: #fff;
+	transition: transform 0.3s, box-shadow 0.3s; /* add transition effect */
+ }
+ 
+ .ShortUrl span {
+	font-size: 18px;
+	font-weight: bold;
+ }
+ 
+ .ShortUrl:hover {
+	transform: scale(1.05); /* scale up on hover */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add shadow on hover */
+ }
+ 
+ .StudentPortal {
+	background-color: #e74c3c;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+	width: 270px;
+	text-align: center;
+	color: #fff;
+	transition: transform 0.3s, box-shadow 0.3s; /* add transition effect */
+ }
+ 
+ .StudentPortal span {
+	font-size: 18px;
+	font-weight: bold;
+ }
+ 
+ .StudentPortal:hover {
+	transform: scale(1.05); /* scale up on hover */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add shadow on hover */
+ }
+
+ .container_main:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	animation: hover-pulse 1s ease-in-out;
+ }

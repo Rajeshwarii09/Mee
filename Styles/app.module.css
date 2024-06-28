@@ -1,0 +1,127 @@
+.background {
+	position: relative;
+	background: linear-gradient(to left, #0f0214, #53104c);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+ }
+ 
+ .circle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	background-color: #53104c;
+	box-shadow: 0px 0px 10px 10px rgba(83, 16, 76, 0.5);
+	animation: rotate 10s linear infinite;
+ }
+ 
+ .circle.small {
+	width: 20px;
+	height: 20px;
+ }
+ 
+ .circle.medium {
+	width: 40px;
+	height: 40px;
+ }
+ 
+ .circle.large {
+	width: 60px;
+	height: 60px;
+ }
+ 
+ .circle.xlarge {
+	width: 80px;
+	height: 80px;
+ }
+ 
+ @keyframes gradient {
+	0% {
+	  background-position: 0% 50%;
+	}
+	100% {
+	  background-position: 100% 50%;
+	}
+ }
+ 
+ @keyframes rotate {
+	0% {
+	  transform: translate(-50%, -50%) rotateX(45deg) rotateY(45deg);
+	}
+	100% {
+	  transform: translate(-50%, -50%) rotateX(45deg) rotateY(405deg);
+	}
+ }
+ .flower {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+ }
+ 
+ .petal {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #ff6663;
+	border-radius: 50% 0 0 50%;
+	transform-origin: 0 100%;
+	animation: bloom 5s linear infinite;
+ }
+ 
+ .petal-1 {
+	left: 50px;
+	top: -50px;
+	transform: rotate(0deg);
+	animation-delay: 0s;
+ }
+ 
+ .petal-2 {
+	left: 35px;
+	top: -35px;
+	transform: rotate(30deg);
+	animation-delay: 1s;
+ }
+ 
+ .petal-3 {
+	left: 20px;
+	top: -20px;
+	transform: rotate(60deg);
+	animation-delay: 2s;
+ }
+ 
+ .petal-4 {
+	left: 10px;
+	top: -10px;
+	transform: rotate(90deg);
+	animation-delay: 3s;
+ }
+ 
+ .petal-5 {
+	left: 5px;
+	top: -5px;
+	transform: rotate(120deg);
+	animation-delay: 4s;
+ }
+ 
+ .center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(0deg);
+	width: 20px;
+	height: 20px;
+	background-color: #ff6663;
+	border-radius: 50%;
+ }
+ 
+ @keyframes bloom {
+	0% {
+	  transform: rotate(0deg) scale(0);
+	}
+	100% {
+	  transform: rotate(1440deg) scale(1);
+	}
+ }

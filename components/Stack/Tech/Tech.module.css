@@ -1,0 +1,115 @@
+.tech_container {
+	display: flex;
+	flex-wrap: wrap;
+	background: transparent linear-gradient(to right, #2b1829, #090a0b);
+	justify-content: center;
+	align-items: center;
+	margin: 5px 1% 5px 87px;
+	grid-template-columns: 3fr;
+	width: 30%;
+	border-radius: 10px;
+	animation: fade-in 1s ease-in-out, rotate-in 1s ease-in-out;
+	transition: transform 0.3s ease-in-out;
+	font-size: 20px;
+	padding: 1% 0% 3% 2%;
+ }
+ 
+ .tech_container:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	animation: hover-pulse 1s ease-in-out;
+ }
+ 
+ .heading {
+	font-size: 25px;
+	color: #925e9bfe;
+	padding: 20px 30%px 20px 30%;
+	margin : 5% 30% 0 30%;
+	text-align: center;
+	animation: slide-in 1s ease-in-out;
+ }
+ 
+ .tech_item {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	animation: fade-in 1s ease-in-out, flip-in 1s ease-in-out;
+ }
+ 
+ 
+ 
+ .tech_icon_r,
+ .tech_icon_n,
+ .tech_icon_m,
+ .tech_icon_b,
+ .tech_icon_h,
+ .tech_icon_c,
+ .tech_icon_j {
+	font-size: 40px;
+	margin-right: 10px;
+	
+	transition: color 0.2s ease-in-out;
+	animation: fade-in 1s ease-in-out;
+	
+ }
+ 
+ .tech_item {
+	color: #400655;
+	text-shadow: #d7bbe1;
+	animation: fade-in 1s ease-in-out;
+	margin: 2% 2% 5% 2%;
+ }
+ 
+
+ .tech_item {
+	color: #681561;
+	animation: fade-in 1s ease-in-out;
+ }
+ 
+ 
+ 
+ .tech_icon_r {
+	font-size: 36px;
+	margin-right: 10px;
+	color: #3a7e91;
+	transition: color 0.2s ease-in-out;
+ }
+
+ .tech_icon_n {
+	font-size: 36px;
+	margin-right: 10px;
+	color:#207720;
+	transition: color 0.2s ease-in-out;
+ }
+
+ .tech_icon_m {
+	font-size: 36px;
+	margin-right: 10px;
+	color:#207720;
+	transition: color 0.2s ease-in-out;
+ }
+ .tech_icon_b {
+	font-size: 36px;
+	margin-right: 10px;
+	color:#563d7c;
+	transition: color 0.2s ease-in-out;
+ }
+ .tech_icon_h {
+	font-size: 36px;
+	margin-right: 10px;
+	color:#b05a14;
+	transition: color 0.2s ease-in-out;
+ }
+ .tech_icon_c {
+	font-size: 36px;
+	margin-right: 10px;
+	color:#1f396f;
+	transition: color 0.2s ease-in-out;
+ }
+ .tech_icon_j {
+	font-size: 36px;
+	margin-right: 10px;
+	color:#736f21;
+	transition: color 0.2s ease-in-out;
+ }
+

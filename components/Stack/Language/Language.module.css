@@ -1,0 +1,116 @@
+.tech_container {
+	display: flex;
+	flex-wrap: wrap;
+	background: transparent linear-gradient(to right, #2b1829, #090a0b);
+	justify-content: center;
+	align-items: center;
+	margin: 3px 1% 3px 1%;
+	grid-template-columns: 3fr;
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 35%;
+	border-radius: 10px;
+	animation: fade-in 1s ease-in-out, rotate-in 1s ease-in-out;
+	transition: transform 0.3s ease-in-out;
+ }
+ 
+ .heading {
+	font-size: 25px;
+	color: #925e9bfe;
+	margin: 0 20% 0% 20%;
+	padding: 0% 30% 0px 30%;
+	
+	text-align: center;
+	animation: slide-in 1s ease-in-out;
+ }
+ 
+ .tech_container:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	animation: hover-pulse 1s ease-in-out;
+ }
+ 
+ .tech_item {
+	display: flex;
+	align-items: center;
+	margin: 0% 1% 2% 1%;
+	padding: 0% 2% 2% 2%;
+	animation: fade-in 1s ease-in-out, flip-in 1s ease-in-out;
+	color: #620861;
+	font-size: 20px;
+ }
+
+ .tech_icon_j,
+ .tech_icon_js,
+ .tech_icon_cp,
+ .tech_icon_ch,
+ .tech_icon_h,
+ .tech_icon_c,
+ .tech_icon_p,.tech_icon_s
+  {
+	font-size: 38px;
+	margin-right: 10px;
+	
+	transition: color 0.2s ease-in-out;
+	animation: fade-in 1s ease-in-out;
+	
+ }
+ .tech_icon:hover {
+	color: #666;
+	animation: pulse 0.5s ease-in-out;
+ }
+ 
+ .tech_icon_j {
+	font-size: 36px;
+	margin-right: 10px;
+	color: #007396;
+	transition: color 0.2s ease-in-out;
+ }
+
+ .tech_icon_js {
+	font-size: 36px;
+	margin-right: 10px;
+	color:#f7df1e;
+	transition: color 0.2s ease-in-out;
+ }
+
+ .tech_icon_cp {
+	font-size: 36px;
+	margin-right: 10px;
+	color: #00599C;
+	transition: color 0.2s ease-in-out;
+ }
+ .tech_icon_ch {
+	font-size: 36px;
+	margin-right: 10px;
+	color:#178600;
+	transition: color 0.2s ease-in-out;
+ }
+ .tech_icon_h {
+	font-size: 36px;
+	margin-right: 10px;
+	color:#178600;
+	transition: color 0.2s ease-in-out;
+ }
+ .tech_icon_c {
+	font-size: 36px;
+	margin-right: 10px;
+	color:#00599C;
+	transition: color 0.2s ease-in-out;
+ }
+ .tech_icon_p {
+	font-size: 36px;
+	margin-right: 10px;
+	color:#4B8BBE;
+	transition: color 0.2s ease-in-out;
+ }
+ .tech_icon_s {
+	font-size: 36px;
+	margin-right: 10px;
+	color:#363636;
+	transition: color 0.2s ease-in-out;
+ }
+
+
+
+ 

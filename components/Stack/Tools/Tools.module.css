@@ -1,0 +1,48 @@
+.icon_f, .icon_v, .icon_r, .icon_h, .icon_c, .icon_p, .icon_m {
+	padding: 10px; /* add padding to make it look more spacious */
+	border-radius: 10px; /* rounded corners */
+	margin: 20px; /* add margin to create some breathing room */
+	
+ }
+ 
+ .icon_f {
+	text-align: center;
+	background-color: #3B3F4E; /* dark blue-gray background */
+ }
+ 
+ .icon_v {
+	background-color: #2E865F; /* dark green background */
+ }
+ 
+ .icon_r {
+	text-align: center;
+	background-color: #c03e0b; /* dark orange background */
+ }
+ 
+ .icon_h {
+	background-color: #7a3c0a; /* dark red background */
+ }
+ 
+ .icon_c {
+	text-align: center;
+	background-color: #1f7835; /* dark teal background */
+ }
+ 
+ .icon_p {
+	background-color: #7A288A; /* dark purple background */
+ }
+ 
+ .icon_m {
+	text-align: center;
+	background-color: #126a8f; /* dark blue background */
+ }
+ 
+.icon_f:hover,.icon_v:hover,.icon_r:hover,.icon_h:hover,.icon_c:hover,.icon_p:hover,.icon_m:hover {
+	box-shadow: 0px 0px 20px rgba(68, 21, 68, 0.7); /* stronger dark shadow on hover */
+	transform: scale(1.1); /* scale up on hover */
+	transition: .2s;
+ }
+ .icon_f:hover:hover:after,.icon_v:hover:hover:after,.icon_r:hover:hover:after,.icon_h:hover:hover:after,.icon_c:hover:hover:after,.icon_p:hover:hover:after,.icon_m:hover:hover:after {
+	transform: scaleX(1);
+	transform-origin: right;
+ }

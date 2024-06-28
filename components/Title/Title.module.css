@@ -1,0 +1,169 @@
+/* .title {
+	width: 80%;
+	margin: 1% 5% 5% 5%;
+	padding: 3% 7% 7% 7%;
+	background:transparent linear-gradient(to left, #1f2d2d, #114767); 
+	
+	border-radius: 10px;
+	box-shadow: 0  10px rgba(179, 178, 178, 0.2) 10px rgba(0, 0, 0, 0.2); 
+ }
+ 
+ .title_box {
+	width: 80%;
+	margin: 2%;
+	 
+ }
+ 
+ .title_box h1 {
+	font-size: 2.5rem;
+	line-height: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: normal;
+	color: #FFFFFF; 
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+;
+ }
+ 
+ .title_box:hover {
+	
+	background: linear-gradient(to bottom, #2E8B57, #034070);
+	text-shadow: transparent; 
+ }
+ 
+ .title_box:hover h1 {
+	color: #CCCCCC; 
+ 
+ @media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+	.title_box {
+	  width: 90%;
+	}
+ 
+	.title_box h1 {
+	  font-size: 1.8rem;
+	  line-height: 0;
+	}
+ } */
+  .me{
+	display: flex;
+
+  }
+ .profile1 {
+	
+	width: 70%;
+	margin: 1% .5% 10px 7%;
+	padding: 0% 5% 0px 5%;
+	background: transparent linear-gradient(to right, #4f054a, #090a0b);
+	border-radius: 12px;
+}
+
+.des{
+	font-family: monospace;
+	font-weight: lighter;
+	color: #8f6f8b;
+	margin-top: 0;
+	margin-left: 100px;
+	padding-top: 0;
+	
+}
+.des h4{
+	margin: -10px;
+	padding: 0;
+	font-size: 25px;
+}
+
+
+.profile_account {
+	color: #cdc4cc;
+	padding: 0%;
+	margin: 0;
+	font-family: monospace;
+	font-weight: lighter;
+	font-style: normal;
+	text-align: center;
+}
+
+.profile_account h1 {
+	
+	font-weight: lighter;
+	font-size: 90px;
+	letter-spacing: 105%;
+	
+}
+
+.profile_account h1:hover {
+	transform: scale(103%);
+	transition: transform 0.5s;
+
+}
+.profile2 {
+	display: flex;
+	flex-direction: column; /* Ensure children stack vertically */
+	align-items: center;
+	width: 15%;
+	margin: 1% 7% 1% 0.5%;
+	padding: 1% 5% 1% 5%;
+	background: transparent linear-gradient(to right, #2d0529, #090a0b);
+	border-radius: 10px;
+	overflow: hidden; /* Ensure child elements don't overflow */
+	position: relative;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile2:hover {
+	transform: scale(1.05); /* Scale up by 5% on hover */
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+	 /* Add a subtle shadow on hover */
+}
+
+.profile2 h3 {
+	text-align: center;
+	font-size: 25px;
+	color: #4f1e57fe;
+	font-weight: lighter;
+	width: 100%;
+	margin: 0; /* Remove default margin */
+}
+
+
+.icon {
+	display: flex;
+	justify-content: center; /* Center icons horizontally */
+	padding: 10px; /* Adjust padding as needed */
+}
+
+
+.icon a {
+	color: rgb(160, 114, 152);
+	font-size: 2.5rem; /* Adjust icon size */
+	transition: color 0.3s ease; /* Smooth color transition */
+	padding: 2% 15% 2% 15%;
+	
+}
+
+.icon a:hover {
+	color: #5b165b; /* Change color on hover */
+	transform: scale(1.1);
+}
+
+
+.profile_account_info{
+	line-height: 0.3;
+}
+
+.profile_account_info p{
+	font-weight: 600;
+}
+
+.profile_menu_one_item{
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	padding: 0rem 1.5rem;
+	transition:  all .3s ease-in;
+}
+
+.profile_menu_one_item:hover{
+	background-color: var(--icons-color);
+	color: var(--shadow-dark-color);
+	border-radius: .3rem;
+}
